@@ -1,0 +1,38 @@
+#app {
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 20px;
+  }
+  
+  .form {
+    text-align: left;
+  }
+  
+  .card {
+    background-color: #ffc1072b;
+    text-align: center;
+    border: 1px solid #2c3e50;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 5px 10px #888888;
+  }
+  
+  .note {
+    padding: 5px;
+  }
+
+  #nav {
+    padding: 30px;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  #nav a.router-link-exact-active {
+    color: #42b983;
+  }
